@@ -1,0 +1,26 @@
+package com.java.no;
+
+import java.util.Scanner;
+
+public class Harshad {
+public static void main(String[] args) {
+	Scanner sc=new Scanner(System.in);
+	System.out.println("Enter The Number");
+	int num=sc.nextInt();
+	harshad(num);
+}
+public static void harshad(int a) {
+	int sum=0;
+	int n=a;
+	while(a>0) {
+		int rem=a%10;
+		sum=sum+rem;
+		a/=10;
+	}
+	if(a%sum==0) {
+		System.out.println(n+" It is A Hrashad Number");
+	}
+	else
+	System.out.println(n+" It is A Hrashad Number");
+}
+}
