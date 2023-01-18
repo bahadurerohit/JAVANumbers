@@ -8,9 +8,8 @@ public static void main(String[] args) {
 	System.out.println("Enter The Number");
 	int num=sc.nextInt();
 	int temp=num;
-	int sq=num*num;
-	int d=0;
-	int f=0;
+	int sq=num*num,f=0,d=0;
+	
 	while(num>0) {
 		f++;
 		num/=10;
